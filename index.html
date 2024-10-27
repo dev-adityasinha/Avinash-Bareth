@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditya Sinha</title>
+  <link rel="icon" type="image/x-icon" href="/assets/favicon_io/favicon.ico">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo"><span class="single-letter">A</span>vinash <span class="single-letter">B</span>areth</div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Avinash Bareth</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/self.jpg" class="myImage" alt="Avinash Bareth profile picture" />
+    </div>
+    <div class="section__text introductory-container">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="fullName"><span class="singleLetter">A</span>vinash <span>B</span>areth</h1>
+      <p class="section__text__p2">Event Team Member</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="alert(`Oops! Not yet Uploaded.`)">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://www.linkedin.com/in/avinash-bareth-02a836329/'" />
+        <img src="./assets/github.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://https://github.com/hackavinash'" />
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Copyright &#169; 2024 Avinash Bareth. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
